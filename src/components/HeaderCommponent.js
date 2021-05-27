@@ -35,7 +35,7 @@ class Header extends Component{
 
     handleLogin(event){
         this.toggleModal();
-        
+        event.preventDefault();
     }
     render(){
         return(
